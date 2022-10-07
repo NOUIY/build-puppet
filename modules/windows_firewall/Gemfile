@@ -6,11 +6,11 @@ else
   puppetversion = ['~> 2.7']
 end
 
-gem "rake"
-gem "puppet", puppetversion
+gem "rake", ">= 12.3.3"
+gem "puppet", ">= 6.25.1", puppetversion
 gem "puppet-lint"
 gem "hiera-puppet-helper"
-gem "puppetlabs_spec_helper"
+gem "puppetlabs_spec_helper", ">= 0.5.0"
 
 if puppetversion =~ /2\.7/
   gem "hiera"
