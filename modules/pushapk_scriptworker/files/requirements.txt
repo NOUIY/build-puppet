@@ -17,7 +17,7 @@ cffi==1.13.1
 chardet==3.0.4
 click==7.0
 colorama==0.4.1
-cryptography==2.7  # pyup: ignore
+cryptography==3.2  # pyup: ignore
 Cycler==0.10.0
 decorator==4.4.1
 dictdiffer==0.8.0
@@ -37,7 +37,7 @@ ipython_genutils==0.2.0
 jedi==0.15.1
 json-e==3.0.0
 jsonschema==3.1.1
-jwcrypto==0.6.0
+jwcrypto==1.4
 kiwisolver==1.1.0
 lxml==4.4.1
 matplotlib==3.1.1
@@ -74,7 +74,7 @@ taskcluster-urls==11.0.0
 traitlets==4.3.3
 typing-extensions==3.7.4.1
 uritemplate==3.0.0
-urllib3==1.24.2  # pyup: ignore
+urllib3==1.26.5  # pyup: ignore
 virtualenv==16.7.7
 voluptuous==0.11.7
 wcwidth==0.1.7
