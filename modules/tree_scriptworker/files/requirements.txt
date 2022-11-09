@@ -1,6 +1,6 @@
 # python_version: 36
 PyYAML==5.1.2
-aiohttp==3.6.2
+aiohttp==3.8.0
 arrow==0.15.2
 asn1crypto==1.2.0
 async_timeout==3.0.1
@@ -8,7 +8,7 @@ attrs==19.3.0
 certifi==2019.9.11
 cffi==1.13.1
 chardet==3.0.4
-cryptography==2.7  # pyup: ignore
+cryptography==3.2  # pyup: ignore
 dictdiffer==0.8.0
 frozendict==1.2
 future==0.18.1
